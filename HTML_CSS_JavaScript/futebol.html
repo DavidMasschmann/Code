@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>            
+            function lineBreak(){
+                write("<br>");
+            }
+            
+            function write(frase){
+                document.write(frase);
+                lineBreak;
+            }
+            
+            var vitorias = parseInt(prompt("Entre com o número de vitórias"));
+            var empates = parseInt(prompt("Entre com o número de empates."));
+            var pontos = vitorias  * 3 + empates;
+
+            write("Os pontos do seu time são " + pontos);
+            
+        </script>
+    </body>
+</html>

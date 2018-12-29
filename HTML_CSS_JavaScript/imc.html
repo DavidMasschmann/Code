@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>            
+            function lineBreak(){
+                write("<br><br>");
+            }
+            
+            function write(frase){
+                document.write(frase);
+                lineBreak;
+            }
+            
+            function calcImc (altura, peso){
+                return peso / ( altura * altura );
+            }
+            
+            var nome = prompt("Informe o seu nome");
+            var pesoInformado = prompt("Informe seu peso");
+            var alturaInformada = prompt("Informe sua altura");
+            
+            var imc = calcImc(alturaInformada, pesoInformado)
+            
+            write(alturaInformada + pesoInformado); // como eu somo os numeros aqui?
+            
+           lineBreak();
+            
+            write(nome + "o seu IMC é: " + imc);
+            
+        </script>
+    </body>
+</html>
