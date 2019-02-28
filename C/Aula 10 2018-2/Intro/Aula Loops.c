@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-main()
+int main()
 {
   int cont=0, x;
   float peso;
