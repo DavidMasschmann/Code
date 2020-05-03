@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Hey! Listen  </title>
+    </head>
+    <body>
+        <input/>
+        <button>Compare with my secret</button>
+        <script>
+            var secrets = sorteiaNumeros(4);
+            console.log(secrets);
+
+            var input = document.querySelector("input");
+            input.focus();
+            
+            var button = document.querySelector("button");
+
+            function sorteiaNumeros(quantidade) {
+
+                var secrets = [];  //Just exist inside of this function!
+                var counter = 1;
+
+                while (counter <= quantidade) {
+
+                    var randonNumber = roundRandon_number();
+                    var guess = false
+
+                    if (randonNumber !== 0) {
+
+                        for (var position = 0; position < secrets.length; position++) {
+
+                            if (secrets[position] == randonNumber) {
+
+                                guess = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (guess == false) {
+
+                        secrets.push(randonNumber);
+                        counter++;
+                    }
+                    counter++;
+                }
+                return secrets;
+            }
+
+            function roundRandon_number() {
+
+               return Math.round(Math.random() * 10)
+            }
+
+            function verify() {
+
+                var guess = false // if guess is equal to the secrets, the 'alert("Wrong")' doesn't apear
+
+                for (position =0; position < secrets.length; position++) {
+
+                    if (input.value == secrets[position]) {
+
+                        alert("You guessed it right!");
+                        guess = true;
+                        break;
+
+                    }
+                }
+
+                if (guess == false) {
+
+                alert("You guessed it WRONG.");
+                        input.value = "";
+                        input.focus();
+                }
+            }
+
+            button.onclick = verify;
+
+        </script>
+    </body>
+</html>

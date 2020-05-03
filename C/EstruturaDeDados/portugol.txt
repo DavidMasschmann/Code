@@ -1,0 +1,55 @@
+Algoritmo Fila_Caminhoneiros
+inicio
+	var
+		caminhoneiros : vetor[1..10] de texto
+		total : inteiro
+		procedimento inicializa()
+		inicio
+			total <- 0
+		fim
+		função estaVazia () : logico
+		inicio
+			se (total = 0) então
+				retorna verdadeiro
+			senão
+				retorna falso
+			fim-se
+		fim
+
+		função estaCheia() : lógico
+		inicio
+			se (total >= 10) então
+				retorna
+			senão
+				retorna falso
+			fim-se
+		fim
+
+		procedimento enfileirar (caminhoneiro : texto)
+		início
+			se (estaCheia() = falso) então
+				total <- total + 1
+				caminhoneiros [total] <- caminhoneiro
+			senão
+				imprima ("Fila cheia")
+			fim-se
+		fim
+
+		função desenfileirar () : texto
+
+			para i <- 1 até total faça
+				caminhoneiros[i] <- caminhoneiros[i+1]
+
+			fim para
+
+			retorna caminhoneiros[1]
+			total <- total - 1
+
+
+
+
+
+
+
+
+fim

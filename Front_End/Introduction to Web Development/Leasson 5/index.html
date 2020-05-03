@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=for"> -->
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="http://vinicius.pro.br/idw/receiveForm.php" method="POST">
+            <fieldset>
+                <legend>Personal data</legend>
+
+                <div class="br">
+                    <label for="first_name" class="first_label">First Name:</label>
+                    <input type="text" name="first_name">
+
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name">
+                </div>
+                
+                <div>
+                    <label for="birth_date" class="first_label">Birth Date:</label>
+                    <input type="date" name="birth_date" id="">
+                </div>
+
+                <div>
+                    <label for="rg" class="first_label">RG:</label>
+                    <input type="number" name="rg" max="9999999999">
+                </div>
+                
+                <div>
+                    <label for="cpf" class="first_label">CPF:</label>
+                    <input type="text" name="cpf1" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}">
+                    -
+                    <input class="input--small" type="text" name="cpf2" pattern="{0-9}[2]">
+                </div>   
+            </fieldset>
+
+            <fieldset>
+                <legend>Address</legend>
+
+                <div>
+                    <label for="street" class="first_label">Street:</label>
+                    <input type="text" name="street">
+
+                    <label for="number">Number:</label>
+                    <input class="input--small" type="number" name="number">
+                </div>
+
+                <div>
+                    <label for="neighborhood" class="first_label">Neighborhood:</label>
+                    <input type="text" name="neighborhood">
+                </div>
+
+                <div>
+                    <label for="state" class="first_label">State:</label>
+                    <select name="neighborhood">
+                        <option value="" disabled selected hidden>Select a state</option>
+                        <option value="PR">PR</option>
+                        <option value="RS">RS</option>
+                        <option value="SC">SC</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="city" class="first_label">City:</label>
+                    <input type="text" name="city">
+                </div>
+
+                <div>
+                    <label for="cep" class="first_label">Zip Code:</label>
+                    <input type="text" name="zip_code" pattern="[0-9]{5}">
+                </div>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Login</legend>
+                
+                <div>
+                    <label for="email" class="first_label">E-mail:</label>
+                    <input type="email" name="email">
+                </div>                
+                
+                <div>
+                    <label for="profilepic" class="first_label">Profile pic:</label>
+                    <input type="file" name="profilepic" accept="image/*" id="image_upload">
+                </div>
+                
+                <div>
+                    <label for="login" class="first_label">User login:</label>
+                    <input type="text" name="login">
+                </div>                
+                
+                <div>
+                    <label for="password" class="first_label">Password:</label>
+                    <input type="password" name="password">
+                </div>                
+                
+                <div>
+                    <label for="password" class="first_label">Confirm password:</label>
+                    <input type="password" name="password">
+                </div>
+            </fieldset>
+        
+            <div class="buttons">
+                <input class="button" type="submit" value="Submit">
+                <input class="button" type="reset" value="Reset">
+            </div>
+    </form>
+</body>
+</html>

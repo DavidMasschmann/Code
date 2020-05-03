@@ -1,0 +1,321 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Header */
+
+header {
+    height: 104px;
+    
+    background-color: rgb(22, 46, 88);
+    box-shadow: 0px 1px 6px 0px rgba(131, 131, 131, 0.7);
+}
+
+.header_title {
+    display: block;
+    padding: 18px 100px 18px 80px;
+    
+    font-size: 16px;
+    color: white;
+}
+
+/*
+nav {
+    height: 50%;
+    color: white;
+}
+
+nav ul {
+    height: 100%;
+    max-width: 752px;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav li {
+    flex-grow: 1;    
+    text-align: center;
+    vertical-align: middle;
+}
+*/
+
+/* Main container */
+
+main {
+    max-width: 752px;
+    margin: 0 auto;
+    min-height: 600px;
+    
+    background-color: white;
+    box-shadow: 0px 0 3px 0px rgba(0, 0, 0, 0.22);
+}
+
+/* Titles */
+
+.main_title {
+    margin: 0px 0 10px 24px;
+    display: inline-block;
+    
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(0,0,0,0.87);
+}
+
+.main_title:first-of-type {
+    margin-top: 16px;
+}
+
+/* Tables Styling */
+
+.table {
+    width: 100%;
+}
+
+.tablesMargin {
+    margin-bottom: 24px;
+}
+
+.table td {
+    vertical-align: middle;
+    text-align: center;
+    color: rgba(0,0,0,.87);
+}
+
+.table td div {
+    display: flex;
+    align-items: center;
+}
+
+.table th, .table td {
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.table thead, .stats thead {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+}
+
+.table__teamImage {
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+}
+
+.table td:first-child, .table th:first-child {
+    width: 16px;
+    border-bottom: white;
+}
+
+.table th:nth-child(2) {
+    text-align: left;
+}
+
+.table tr td:nth-child(2) {
+    width: 25px;
+}
+
+.pts {
+    width: 31px;
+}
+
+.last_five {
+    padding: 1px 0 8px 1px;
+}
+
+    /* Icons inside .last_five */
+
+    .icons {
+        width: 100px;
+        padding: 4px 0 0 6px;
+    }
+
+    .icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    /* ------------------ */
+
+.table td:last-child, .table th:last-child {
+    width: 28px;
+    border-bottom: white;
+}
+
+.table tbody tr:last-child td {
+    border-bottom: white;
+}
+
+.table tbody tr:hover {
+    background-color: #fafafa;
+}
+
+/* Colored Left Side Bars */
+
+.tr_leftBar {
+    background-color: #4285F4;
+    width: 3px;
+    height: 40px;
+    margin-bottom: 0.5px;
+}
+
+#tr_leftBar3 {
+    background-color: #FA7B17;
+    width: 3px;
+    height: 40px;
+    margin-bottom: 0.5px;
+}
+
+#tr_leftBar4 {
+    width: 3px;
+    height: 40px;
+    margin-bottom: 0.5px;
+}
+
+/* Stats Styling */
+
+.stats {
+    width: 100%;
+}
+
+.statsContainer{
+    padding-left: 17px;
+    padding-right: 15px;
+    padding-top: 17px;
+    padding-bottom: 8px;
+}
+
+.stats__column1 {
+    width: 3.5%;
+}
+
+.stats__column3 {
+    width: 5.4%;
+    text-align: right;
+}
+
+.stats th, .stats td {
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.stats tbody tr:last-child td {
+    border-bottom: white;
+}
+
+.stats__tdPosition {
+    padding-top: 8px;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.stats__thPlayer {
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.stats__tdPlayer {
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.stats__playerName {
+    text-align: left;
+}
+
+.stats__teamLine {
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.stats__teamName {
+    vertical-align: super;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.stats__teamLogo {
+    padding-right: 4px;
+    vertical-align: top;
+    width: 16px;
+    height: 16px;
+}
+
+.stats tbody tr:hover {
+    background-color: #fafafa;
+}
+
+/* Matches Stylin */
+
+ .matches__tr     {
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.matches__td {
+    border-right: solid 1px #e0e0e0;
+}
+
+/* Match Styling */
+
+.match__column1 {
+    box-sizing: border-box;
+    width: 64px;
+    height: 32px;
+    padding-left: 24px;
+}
+
+.match th, .match td {
+    vertical-align: middle;
+}
+
+.match__title {
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    padding: 16px 0 10px 24px;
+    text-align: left;
+}
+
+.match_tdTeam {
+    width: 190px;
+}
+
+.match__teamLogo {
+    width: 24px;
+    height: 24px;
+}
+
+.match__gols {
+    float: right;
+}
+
+.match__tdArrow {
+    padding-left: 6px;
+    width: 6px;
+    border-right: 1px solid #f5f5f5;
+}
+
+.match_loser {
+    color: rgba(0,0,0,.54);
+}
+
+.match__tdScore {
+    text-align: center;
+    width: 106px;
+}
+
+.match__fullTime {
+    display: block;
+}
+
+.match__score {
+    color: rgba(0,0,0,.54);
+}
+
+.match__trBotton {
+    height: 24px;
+}
+
+.match:hover {
+    background-color: #fafafa;
+}

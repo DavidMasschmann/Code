@@ -1,0 +1,45 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    width: 50%;
+    margin: 0 auto 24px;
+    box-sizing: border-box;
+}
+
+.first_label {
+    width: 134px;
+    display: inline-block;
+}
+
+input {
+    margin: 0 10px 15px;
+    width: 130px;
+}
+
+.input--small{
+    width: 50px;
+}
+
+select{
+    width: 130px;
+    margin: 0 10px 15px;
+}
+
+#image_upload{
+    width: 300px;
+}
+
+.buttons {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.button{
+    width: 48%;
+    box-sizing: border-box;
+    margin: 0;
+}

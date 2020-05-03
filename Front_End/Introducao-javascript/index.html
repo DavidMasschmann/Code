@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Isis Nutrition</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/scroll_bar.css">
+		<script defer src="js/bmi_calculator.js" charset="utf-8"></script>
+		<script defer src="js/register_patient.js" charset="utf-8"></script>
+		<script defer src="js/removes_patient.js" charset="utf-8"></script>
+		<script defer src="js/filter.js" charset="utf-8"></script>
+		<script defer src="js/get_patients_from_api.js" charset="utf-8"></script>
+	</head>
+	<body>
+
+		<header>
+			<div class="container">
+				<h1 class="tittle">Isis Nutrition</h1>
+			</div>
+		</header>
+		<main>
+			<section class="container">
+				<h2>Patients</h2>
+				<input type="search" name="filter" id="table_filter" placeholder="Search" class="field search_field" autocomplete="off">
+				<table>
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Weight(kg)</th>
+							<th>Height(m)</th>
+							<th>Body fat(%)</th>
+							<th>BMI</th>
+						</tr>
+					</thead>
+					<tbody id="patients_table">
+						<tr class="patient" id="primeiro-patient">
+							<td class="name_info">Paulo</td>
+							<td class="weight_info">100</td>
+							<td class="height_info">2.00</td>
+							<td class="bodyFat_info">10</td>
+							<td class="bmi_info">0</td>
+						</tr>
+
+						<tr class="patient">
+							<td class="name_info">João</td>
+							<td class="weight_info">80</td>
+							<td class="height_info">1.72</td>
+							<td class="bodyFat_info">40</td>
+							<td class="bmi_info">0</td>
+						</tr>
+
+						<tr class="patient" >
+							<td class="name_info">Erica</td>
+							<td class="weight_info">54</td>
+							<td class="height_info">1.64</td>
+							<td class="bodyFat_info">14</td>
+							<td class="bmi_info">0</td>
+						</tr>
+
+						<tr class="patient">
+							<td class="name_info">Douglas</td>
+							<td class="weight_info">85</td>
+							<td class="height_info">1.73</td>
+							<td class="bodyFat_info">24</td>
+							<td class="bmi_info">0</td>
+						</tr>
+						<tr class="patient" >
+							<td class="name_info">Tatiana</td>
+							<td class="weight_info">46</td>
+							<td class="height_info">1.55</td>
+							<td class="bodyFat_info">19</td>
+							<td class="bmi_info">0</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<button type="button" name="button">	</button>
+			</section>
+		</main>
+
+		<section class="container">
+		    <h2 id="tittle-form">Add new patient</h2>
+		    <form id="form">
+		        <div>
+		            <label for="name">Name:</label>
+		            <input id="name" name="name" type="text" placeholder="Type the name of the patient" class="field" autocomplete="off">
+		        </div>
+		        <div class="group">
+		            <label for="weight">Weight:</label>
+		            <input id="weight" name="weight" type="text" placeholder="Type the weight of the patient" class="field medium_field" autocomplete="off">
+		        </div>
+		        <div class="group">
+		            <label for="height">Height:</label>
+		            <input id="height" name="height" type="text" placeholder="Type the height of the patient" class="field medium_field" autocomplete="off">
+		        </div>
+		        <div class="group">
+		            <label for="body_fat">Fat percentage:</label>
+		            <input id="body_fat" name="body_fat" type="text" placeholder="Type the fat percentage of the patient" class="field medium_field" autocomplete="off">
+		        </div>
+
+				<ul id="error-messages"></ul>
+
+		        <button id="add_patient" class="botao bto-principal">Add</button>
+		    </form>
+		</section>
+	</body>
+</html>

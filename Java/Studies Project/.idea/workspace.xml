@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Open Files" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad023199-13d1-4e55-a740-88930b61624a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Activity08/Scan.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1Ow6oJOyhJ9zfbfgL72ju0Z5rP8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Activity07.Activity06_5" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Activity12_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity12.Activity12_2.Activity12_2" />
+      <module name="Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Activity12.Activity12_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Activity12_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity12.Activity12_3.Activity12_3" />
+      <module name="Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Activity12.Activity12_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Activity13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity13.Activity13" />
+      <module name="Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Activity13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity14.Main" />
+      <module name="Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Activity14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.Main" />
+      <module name="Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Activity13" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Activity12_3" />
+        <item itemvalue="Application.Activity12_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="1" Folder0="C:\Users\david\Downloads\pt-BR" CustomDictionaries="1" CustomDictionary0="C:\Users\david\Downloads\pt-BR\index.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad023199-13d1-4e55-a740-88930b61624a" name="Default Changelist" comment="" />
+      <created>1564876485607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564876485607</updated>
+      <workItem from="1564876491346" duration="772000" />
+      <workItem from="1564880546087" duration="5677000" />
+      <workItem from="1564963540843" duration="1440000" />
+      <workItem from="1565140908083" duration="3456000" />
+      <workItem from="1565144998435" duration="405000" />
+      <workItem from="1565145443054" duration="383000" />
+      <workItem from="1565145879364" duration="789000" />
+      <workItem from="1565146826714" duration="1216000" />
+      <workItem from="1565734639385" duration="846000" />
+      <workItem from="1565742184204" duration="1236000" />
+      <workItem from="1565913355157" duration="11000" />
+      <workItem from="1566066325653" duration="14262000" />
+      <workItem from="1566951262582" duration="3027000" />
+      <workItem from="1567287001188" duration="1221000" />
+      <workItem from="1567291538221" duration="12921000" />
+      <workItem from="1567880827361" duration="74000" />
+      <workItem from="1567881062394" duration="46000" />
+      <workItem from="1567881173984" duration="27058000" />
+      <workItem from="1567997025363" duration="900000" />
+      <workItem from="1568156669987" duration="9797000" />
+      <workItem from="1568297044776" duration="10208000" />
+      <workItem from="1568470738802" duration="2547000" />
+      <workItem from="1568482123537" duration="2717000" />
+      <workItem from="1568687541266" duration="354000" />
+      <workItem from="1569970665421" duration="3921000" />
+      <workItem from="1570021832725" duration="11000" />
+      <workItem from="1570072725996" duration="171000" />
+      <workItem from="1570315088985" duration="719000" />
+      <workItem from="1570315855394" duration="1085000" />
+      <workItem from="1570317225657" duration="967000" />
+      <workItem from="1570318241871" duration="84000" />
+      <workItem from="1570319238443" duration="351000" />
+      <workItem from="1570319624376" duration="13554000" />
+      <workItem from="1570375583404" duration="14959000" />
+      <workItem from="1570577372804" duration="6578000" />
+      <workItem from="1570629045978" duration="414000" />
+      <workItem from="1570629497706" duration="247000" />
+      <workItem from="1570630075890" duration="1172000" />
+      <workItem from="1570631328358" duration="4361000" />
+      <workItem from="1570638258894" duration="451000" />
+      <workItem from="1570638761112" duration="1182000" />
+      <workItem from="1570915120420" duration="17815000" />
+      <workItem from="1571021782090" duration="3898000" />
+      <workItem from="1571070415742" duration="3737000" />
+      <workItem from="1571763311773" duration="402000" />
+      <workItem from="1571763822960" duration="912000" />
+      <workItem from="1571785820470" duration="80000" />
+      <workItem from="1571786058941" duration="992000" />
+      <workItem from="1572141415064" duration="3686000" />
+      <workItem from="1572463716140" duration="1942000" />
+      <workItem from="1572906938370" duration="596000" />
+      <workItem from="1573862371973" duration="1570000" />
+      <workItem from="1574117459246" duration="89000" />
+      <workItem from="1574791014335" duration="204000" />
+      <workItem from="1582516201383" duration="967000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="381" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1570072735428">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="381" y="207" key="com.intellij.ide.util.TipDialog/0.0.1360.768/0.768.1366.768@0.0.1360.768" timestamp="1570072735428" />
+  </component>
+</project>
