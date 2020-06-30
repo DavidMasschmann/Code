@@ -79,7 +79,7 @@ let add_button = document.querySelector("#add_patient");
 add_button.addEventListener("click", function(){
     event.preventDefault();
     console.log("Click");
-
+    
     let table = document.querySelector("#patients_table");
     let form = document.querySelector("#form");
 

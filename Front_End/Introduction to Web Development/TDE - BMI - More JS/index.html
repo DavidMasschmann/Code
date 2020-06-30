@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- JS -->
+    <script defer src="assets/js/input_filter.js"></script>
+    <script defer src="assets/js/bmi_magic.js"></script>
+</head>
+<body>
+    <section>
+        <div id="logo_positioner">
+            <div id="logo">
+                <div><span id="bmi">BMI</span></div>
+                <span id="calculator">Calculator</span>
+            </div>
+        </div>
+
+        <form>
+            <input type="text" placeholder="Name" autocomplete="off" id="name">
+
+            <select name="gender" id="gender">
+                <option value="" hidden >Gender</option>
+                <option value="">Female</option>
+                <option value="">Male</option>  
+            </select>
+
+            <input type="text" placeholder="Weight" autocomplete="off" id="weight">
+
+            <input type="text" placeholder="Height" autocomplete="off" id="height">
+        </form>
+    </section>
+
+    <section class="info fadeOut" id="info">   
+        <div>
+            <h2><span id="info_name">Name</span>, your BMI is</h2>
+            <h1 id="info_bmi">18.5</h1>
+
+            <h2>Weight Status</h2>
+            <h1 id="info_status">Underweight</h1>
+        </div>
+    </section>
+</body>
+</html>
