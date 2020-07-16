@@ -2,35 +2,56 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="UTF-8">
-		<title>Isis Nutrition</title>
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BMI System</title>
+
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		
+		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/scroll_bar.css">
+		
+		<!-- JS -->
+		<script defer src="js/input_filter.js"></script>
 		<script defer src="js/bmi_calculator.js" charset="utf-8"></script>
 		<script defer src="js/register_patient.js" charset="utf-8"></script>
 		<script defer src="js/removes_patient.js" charset="utf-8"></script>
 		<script defer src="js/filter.js" charset="utf-8"></script>
 		<script defer src="js/get_patients_from_api.js" charset="utf-8"></script>
+		
+		<!-- Bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 	</head>
 	<body>
 
 		<header>
-			<div class="container">
-				<h1 class="tittle">Isis Nutrition</h1>
+			<div class="d_container container">
+				<h1 class="tittle">BMI System</h1>
 			</div>
 		</header>
 		<main>
-			<section class="container">
+			<section class="d_container container">
 				<h2>Patients</h2>
 				<input type="search" name="filter" id="table_filter" placeholder="Search" class="field search_field" autocomplete="off">
 				<table>
 					<thead>
 						<tr>
 							<th>Name</th>
-							<th>Weight(kg)</th>
-							<th>Height(m)</th>
-							<th>Body fat(%)</th>
+							<th>Weight (kg)</th>
+							<th>Height (m)</th>
+							<th>Body fat (%)</th>
 							<th>BMI</th>
 						</tr>
 					</thead>
@@ -80,25 +101,30 @@
 			</section>
 		</main>
 
-		<section class="container">
+		<section class="d_container container">
 		    <h2 id="tittle-form">Add new patient</h2>
 		    <form id="form">
-		        <div>
-		            <label for="name">Name:</label>
-		            <input id="name" name="name" type="text" placeholder="Type the name of the patient" class="field" autocomplete="off">
-		        </div>
-		        <div class="group">
-		            <label for="weight">Weight:</label>
-		            <input id="weight" name="weight" type="text" placeholder="Type the weight of the patient" class="field medium_field" autocomplete="off">
-		        </div>
-		        <div class="group">
-		            <label for="height">Height:</label>
-		            <input id="height" name="height" type="text" placeholder="Type the height of the patient" class="field medium_field" autocomplete="off">
-		        </div>
-		        <div class="group">
-		            <label for="body_fat">Fat percentage:</label>
-		            <input id="body_fat" name="body_fat" type="text" placeholder="Type the fat percentage of the patient" class="field medium_field" autocomplete="off">
-		        </div>
+				<div class="row">
+					<div class="col-md-12">
+						<label for="name">Name:</label>
+						<input id="name" name="name" type="text" placeholder="Type the name of the patient" class="field" autocomplete="off">
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md">
+						<label for="weight">Weight:</label>
+						<input id="weight" name="weight" type="text" placeholder="Type the weight of the patient" class="field medium_field" autocomplete="off">
+					</div>
+					<div class="col-md">
+						<label for="height">Height:</label>
+						<input id="height" name="height" type="text" placeholder="Type the height of the patient" class="field medium_field" autocomplete="off">
+					</div>
+					<div class="col-md">
+						<label for="body_fat">Fat percentage:</label>
+						<input id="body_fat" name="body_fat" type="text" placeholder="Type the fat percentage of the patient" class="field medium_field" autocomplete="off">
+					</div>
+				</div>		        
 
 				<ul id="error-messages"></ul>
 

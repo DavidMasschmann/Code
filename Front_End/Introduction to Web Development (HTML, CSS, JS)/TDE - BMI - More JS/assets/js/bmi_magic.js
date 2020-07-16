@@ -9,6 +9,15 @@ let info_name = document.getElementById("info_name")
 let info_bmi = document.getElementById("info_bmi")
 let info_status = document.getElementById("info_status")
 
+// Input Filters
+setInputFilter(weight_input, function(value) {
+    return /^-?\d*[.]?\d{0,2}$/.test(value) })
+
+setInputFilter(height_input, function(value) {
+    return /^-?\d*[.]?\d{0,2}$/.test(value) })
+
+/* ----- */
+
 function calculateBMI (weight, height) {
     bmi = weight / (height * height)
 
@@ -43,7 +52,8 @@ function show () {
 
     setTimeout(function() {
         info_section.classList.remove("fadeOut")
-    }, 1500)
+    }, 2500)
 }
 
 height_input.addEventListener("input", show)
+weight_input.addEventListener("input", show)

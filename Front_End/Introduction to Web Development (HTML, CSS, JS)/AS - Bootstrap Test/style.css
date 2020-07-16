@@ -1,0 +1,11 @@
+article {
+    margin-bottom: 30px;
+}
+
+.blue {
+    color: rgba(0, 119, 255, 0.753)!important;
+}
+
+#menuItem {
+    color: rgba(0, 0, 0, 0.726)!important;
+}
